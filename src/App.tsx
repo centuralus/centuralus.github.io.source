@@ -19,15 +19,16 @@ function App() {
         <h1>
           Centural.Us
         </h1>
+        <div className="login_register">
+          <p>
+            To login to the framework please provide a secret_key which can be created by loging in, typing <span>/trigger secret_key</span> then typing in your secret_key in the writable_book.
+          </p>
+          <label for="secret_key">Secret Key</label>
+          <input data-testid="secret_key" type="password" label="Write your secret key in a book secret_key book in game to login!" />
+        
+        </div>
       </header>
-      <div className="login_register">
-        <p>
-          To login to the framework please provide a secret_key which can be created by loging in, typing <span>/trigger secret_key</span> then typing in your secret_key in the writable_book.
-        </p>
-        <label for="secret_key">Secret Key</label>
-        <input data-testid="secret_key" type="password" label="Write your secret key in a book secret_key book in game to login!" />
-       
-      </div>
+      
     </div>
   );
 }
