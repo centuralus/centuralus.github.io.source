@@ -19,19 +19,7 @@ function App() {
         <p>
           Centural
         </p>
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://preactjs.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Preact
-          </a>
-        </p>
+        <input data-testid="secret_key" type="password" label="Write your secret key in a book secret_key book in game to login!" />
       </header>
       <div className="login_register">
         <p>Username</p>
