@@ -33,6 +33,9 @@ function App() {
           </a>
         </p>
       </header>
+      <div className="login_register">
+        <p>Username</p>
+      </div>
     </div>
   );
 }

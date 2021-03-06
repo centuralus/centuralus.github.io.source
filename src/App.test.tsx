@@ -19,4 +19,9 @@ describe('<App>', () => {
     const linkElement = getByText(/Centural/i)
     expect(document.body.contains(linkElement))
   })
+  it('has a username field', () => {
+    const { getByText } = render(<App />)
+    const link_element = getByText(/username/i)
+    expect(document.body.contains(link_element))
+  })
 })
